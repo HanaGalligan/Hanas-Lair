@@ -1,0 +1,25 @@
+body {
+    background:rgb(104, 255, 104) url('img/jello dish.png') no-repeat center fixed;
+    background-size: 300px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+p {
+    color:rgb(0, 0, 0);
+    background-color:rgb(166, 255, 84);
+    opacity: 0.8;
+    padding: 80px;
+}
+
+.special {
+    color:rgb(0, 0, 0);
+    font-size: 150%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif 
+    margin: 30px;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
