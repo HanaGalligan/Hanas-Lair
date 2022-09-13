@@ -36,6 +36,7 @@ margin:20px;
 p {
     color:rgb(3, 2, 2);
     padding: 50px;
+    opacity: .8;
     font-size: 15px;
 }
 
