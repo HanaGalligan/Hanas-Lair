@@ -1,5 +1,9 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
-    background:rgb(221, 180, 201);
+    background:rgb(32, 27, 32);
     background-size: 300px;
     font-family:cursive
 }
@@ -10,9 +14,28 @@ div.a {
 * {
     box-sizing: border-box;
 }
+.right {
+    float: right;
+    width: 600px;
+    text-size-adjust: 40px;
+    padding: 10px;
+    font-size: 40px;
+    margin-right: 300px;
+  }
+  
+
+  .left {
+    float: left;
+    padding-top:1000px ;
+    width: 600px;
+    text-size-adjust: 40px;
+    padding: 10px;
+    font-size:40px;
+    margin-right: px;
+  }
 .box {
     background:rgb(254, 255, 255);
-    width:200px;
+    width:400px;
     height:200px;
     border:1px solid rgb(133, 106, 123);
     margin-top: 10px;
@@ -21,7 +44,7 @@ div.a {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 30%;
+    
   }
 
 .relative {
@@ -34,24 +57,21 @@ body {
 margin:20px;
 }
 p {
-    color:rgb(3, 2, 2);
+    color:rgb(255, 255, 255);
     padding: 50px;
     opacity: .8;
     font-size: 15px;
 }
 
-.special {
-    color:bisque;
-    background:rgb(80, 79, 79);   
-    font-size: 150%;
-    font-family: cursive; 
-    margin: 30px;
+.sticky {
+    position:sticky;
+    background: lightgoldenrodyellow;
+    top:0;
 }
 
-.special2 {
-    color:rgb(0, 0, 0);
-    background:;  
+.special {
+    color:rgb(253, 253, 253);  
     font-size: 150%;
     font-family: cursive; 
-    margin: 30px;
+    margin-left: 600px;
 }
