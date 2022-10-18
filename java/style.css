@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+
+margin:10px;
+background-color: azure;
+}
+
+.box {
+    padding: 20px;
+    background-color: slategray;
+    color: white;
+    font-size: 20px;
+    height: 100vh;
+    position:fixed;
+    top:0;
+    right:-300;
+    width:300px;
+    border-left: 1px solid;
+    transition: right .5s;
+  }
+
+  .active {
+    right:0;
+  }
+
+  button {
+    padding: 1px;
+    border: 1px;
+    cursor:pointer;
+    background-color:thistle;
+    border-radius: 5px;
+  }
+
+  button:hover {
+    background-color: ;
+  }
+
+  button:active {
+    background-color: white;
+  }
+
+  .obj {
+    background-color: cornflowerblue;
+    border:1px solid;
+    width:100px;
+    height:100px;
+    position:fixed;
+    bottom:40px;
+    left:40px;
+    transition:transform 1s;
+  }
+
+  .spin {
+    transform: rotate(360deg);
+    background-color: yellowgreen;
+  }
+  
