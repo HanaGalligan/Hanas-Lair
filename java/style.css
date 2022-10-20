@@ -6,19 +6,23 @@ body {
 
 margin:10px;
 background-color: azure;
+transition: background-color .5s;
+}
+
+.dark {
+    background-color: darkgray;
 }
 
 .box {
     padding: 20px;
     background-color: slategray;
-    color: white;
     font-size: 20px;
     height: 100vh;
     position:fixed;
     top:0;
-    right:-300;
+    right:-300px;
     width:300px;
-    border-left: 1px solid;
+    border-left:1px solid;
     transition: right .5s;
   }
 
