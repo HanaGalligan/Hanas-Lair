@@ -1,0 +1,199 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<style>
+ #div2, #div3, #div5 {
+  float: center;
+  width: 70px;
+  height: 70px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid rgb(0, 0, 0);
+}
+</style>
+
+<style>
+    #div1 {
+      float: center;
+      width: 500px;
+      height: 35px;
+      margin: 10px;
+      padding: 10px;
+      border: 5px solid rgb(0, 0, 0);
+    }
+    </style>
+
+<style>
+    #div4 {
+      float: center;
+      width: 70px;
+      height: 70px;
+      margin: 50px;
+      padding: 50px;
+      color: rgb(142, 173, 96);
+      border: 1px solid rgb(0, 0, 0);
+    }
+    </style>
+   <style>
+    #div5 {
+     float: center;
+     width: 70px;
+     height: 70px;
+     margin: 10px;
+     padding: 10px;
+     border: 1px solid rgb(0, 0, 0);
+   }
+   </style>
+   <style>
+    #div6 {
+     float: fixed;
+     left: 1000px;
+     width: 100px;
+     height: 70px;
+     margin-left: 100px;
+     border: 1px solid rgb(0, 0, 0);
+   }
+   </style>
+    <style>
+        #div7 {
+         float: fixed;
+         left: 1000px;
+         width: 100px;
+         height: 70px;
+         margin-left: 300px;
+         border: 1px solid rgb(0, 0, 0);
+       }
+       </style>
+        <style>
+            #div8 {
+             float: fixed;
+             left: 1000px;
+             width: 100px;
+             height: 70px;
+             margin-left: 400px;
+             border: 1px solid rgb(0, 0, 0);
+           }
+           </style>
+            <style>
+                #div9 {
+                 float: fixed;
+                 left: 1000px;
+                 width: 100px;
+                 height: 70px;
+                 margin-left: 600px;
+                 border: 1px solid rgb(0, 0, 0);
+               }
+               </style>
+                <style>
+                    #div10 {
+                     float: fixed;
+                     left: 1000px;
+                     width: 300px;
+                     height: 70px;
+                     margin-left: 750px;
+                     padding: 10px;
+                     border: 1px solid rgb(0, 0, 0);
+                   }
+                   </style>
+                    <style>
+                        #div11 {
+                         float: fixed;
+                         left: 1000px;
+                         width: 100px;
+                         height: 70px;
+                         margin-left: 600px;
+                         border: 1px solid rgb(0, 0, 0);
+                       }
+                       </style>
+                        <style>
+                            #div12 {
+                             float: fixed;
+                             left: 1000px;
+                             width: 100px;
+                             height: 70px;
+                             margin-left: 600px;
+                             border: 1px solid rgb(0, 0, 0);
+                           }
+                           </style>
+                        
+                          
+                            <style>
+                                #div13 {
+                                 float: fixed;
+                                 left: 1000px;
+                                 width: 1000px;
+                                 height: 70px;
+                                 margin-top: 100px;
+                                 margin-left: 600px;
+                                 margin-bottom: 100px;
+                                 border: 5px solid rgb(0, 0, 0);
+                               }
+                               
+                               </style>
+                          
+                            
+                                <style>
+                                    #p2 {
+                                     float: fixed;
+                                     margin-top: 300px;
+                                     margin-left: 600px;
+                                     border: 1px solid rgb(0, 0, 0);
+                                   }
+                                   </style>
+<script>
+
+function allowDrop(ev) {
+  ev.preventDefault();
+}
+
+function drag(ev) {
+  ev.dataTransfer.setData("text", ev.target.id);
+}
+
+function drop(ev) {
+  ev.preventDefault();
+  var data = ev.dataTransfer.getData("text");
+  ev.target.appendChild(document.getElementById(data));
+}
+</script>
+</head>
+<body>
+
+<h2>Hello There!</h2>
+<p>Please help me hop across this river to get to the other side!</p>
+
+<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <img src="img/bwfrog.png" draggable="true" ondragstart="drag(event)" id="drag1" width="48" height="31">
+</div>
+
+<div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+<div id="div3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+<div id="div4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+<div id="div5" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+<div id="div6" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<div id="div7" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<div id="div8" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<div id="div9" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<div id="div10" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<div id="div11" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<div id="div12" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<div id="div13" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+<img src="img/squig.png" width="400" height="54" /> 
+<img src="img/squig.png" width="400" height="54" style="float:left"/>
+<img src="img/squig.png" width="400" height="54" style="float:left"/> 
+<img src="img/squig.png" width="400" height="54" style="float:left"/> 
+ 
+
+<marquee style="font-size: 50px; margin: 100px;" behavior="scroll" direction="left" >Thank You!!! </marquee>
+
+<img src="img/squig.png" width="400" height="54" /> 
+<img src="img/squig.png" width="400" height="54" style="float:left"/>
+<img src="img/squig.png" width="400" height="54" style="float:left"/> 
+<img src="img/squig.png" width="400" height="54" style="float:left"/> 
+
+</html>
