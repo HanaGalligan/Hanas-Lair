@@ -1,0 +1,32 @@
+.center {
+    text-align: center;
+    font-size: 50px;
+  margin: auto;
+  height: 90px;
+  width: 800px;
+  border: 2px solid #000000;
+  padding-bottom: 40px;
+
+}
+
+.step {
+
+    text-align: center;
+    font-size: 50px;
+  margin: auto;
+  height: 60px;
+  width: 80%;
+  border: 2px solid #000000;
+  padding-bottom: 40px;
+
+}
+
+.door {
+  margin: auto;
+  box-align: center;
+  height: 500px;
+  width: 200px;
+  float:left;
+  border: 2px solid #000000;
+
+}
